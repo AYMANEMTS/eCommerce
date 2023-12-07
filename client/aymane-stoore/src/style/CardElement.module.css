@@ -1,0 +1,9 @@
+/* CardElement.module.css */
+
+.light-mode {
+    color: #ffffff; /* Set the text color for light mode */
+}
+
+.dark-mode {
+    color: #000000; /* Set the text color for dark mode */
+}

@@ -1,0 +1,18 @@
+.one:hover span:last-child {
+    width: 100%;
+}
+
+.two:hover span {
+    width: 50%;
+}
+
+.three:hover span {
+    height: 100%;
+}
+/*.mynav{*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+
+/*}*/
