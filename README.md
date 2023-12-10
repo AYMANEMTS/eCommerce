@@ -15,13 +15,7 @@ This project combines the power of Laravel and React to bring you a cutting-edge
 2. 🛒 Explore the React-based storefront at [http://localhost:3000](http://localhost:3000).
 3. 💡 Manage products, categories, and orders seamlessly.
 
-## Contributors:
-
-- [Your Name]
-- [Additional Contributor Names]
 
 ## Acknowledgments:
 
-[Tag any additional resources, libraries, or tools used in the project.]
-
-#Ecommerce #Laravel #React #OpenSource 🚀🛍️
+#Ecommerce #Laravel #React #OpenSource #shadcnui  🚀🛍️
