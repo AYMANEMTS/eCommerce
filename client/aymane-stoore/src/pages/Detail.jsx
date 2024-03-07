@@ -17,10 +17,7 @@ function Detail() {
         staleTime:40000,
         refetchOnWindowFocus:false,
         retry:1,
-        initialData:() => {
-            const product = queryClient.getQueryData('products')?.data
-            return product?.find((item) => item.id === parseInt(id))
-        }
+        
     })
     if(isError){
         console.log(error)

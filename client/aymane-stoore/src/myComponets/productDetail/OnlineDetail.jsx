@@ -6,7 +6,6 @@ import ProductSection from "./ProductSection.jsx";
 function OnlineDetail({product}) {
     const {getItemQty,increaseCartQty,decreaseCartQty,removeItemFromCart} = useShopingCart()
     const [dataImages, setDataImages] = useState([]);
-
     useEffect(() => {
         const initialImage = {
             image: `http://127.0.0.1:8000/storage/${product?.image}`,
@@ -18,7 +17,6 @@ function OnlineDetail({product}) {
                 image: `http://127.0.0.1:8000/storage/${img.path}`,
                 caption: "",
             }));
-
             setDataImages((prevState) => [...prevState, ...productImages]);
         }
     }, [product]);

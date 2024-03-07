@@ -21,7 +21,7 @@ function Home() {
     })
     return (
         <>
-            <ReactQueryDevtools />
+           
             <img src={brand} style={{width:"100%"}}/>
             <div className={"container "}>
                 <div className="flex justify-center text-4xl mt-3">

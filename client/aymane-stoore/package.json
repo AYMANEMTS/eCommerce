@@ -27,6 +27,7 @@
     "jquery": "^3.7.1",
     "list.js": "^2.3.1",
     "lucide-react": "^0.288.0",
+    "package.json": "^2.0.1",
     "react": "^18.2.0",
     "react-carousel-minimal": "^1.4.1",
     "react-dom": "^18.2.0",

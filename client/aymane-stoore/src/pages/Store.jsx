@@ -68,8 +68,7 @@ function Store() {
     }
     return (<>
             <div className="container my-5  flex flex-col justify-center items-center">
-                <ReactQueryDevtools />
-                <div className="flex flex-col sm:flex-row">
+                 <div className="flex flex-col sm:flex-row">
                     <div className="sm:w-2/6 md:w-1/3 lg:w-2/6 hidden md:block">
                         <p className="text-2xl">Filters:</p>
                         <FilterProducts products={products} />
